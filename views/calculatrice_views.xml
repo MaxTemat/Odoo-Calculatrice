@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Vue liste -->
+    <record id="view_calculatrice_list" model="ir.ui.view">
+        <field name="name">calculatrice.calculatrice.list</field>
+        <field name="model">calculatrice.calculatrice</field>
+        <field name="arch" type="xml">
+            <list string="Calculatrice">
+                <field name="operation"/>
+                <field name="nombre1" sum="Total"/>
+                <field name="nombre2" sum="Total"/>
+                <field name="resultat" sum="Total"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Vue formulaire -->
+    <record id="view_calculatrice_form" model="ir.ui.view">
+        <field name="name">calculatrice.calculatrice.form</field>
+        <field name="model">calculatrice.calculatrice</field>
+        <field name="arch" type="xml">
+            <form string="Calculatrice">
+                <sheet>
+                    <group>
+                        <field name="nombre1"/>
+                        <field name="nombre2"/>
+                        <field name="operation"/>
+                        <field name="resultat" readonly="1"/>
+                        <field name="contact_ids" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vue recherche -->
+    <record id="view_calculatrice_search" model="ir.ui.view">
+        <field name="name">calculatrice.calculatrice.search</field>
+        <field name="model">calculatrice.calculatrice</field>
+        <field name="arch" type="xml">
+            <search string="Calculatrice">
+                <field name="recherche"/>
+                <field name="nombre1"/>
+                <field name="nombre2"/>
+                <field name="resultat"/>
+                <field name="operation"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="action_calculs" model="ir.actions.act_window">
+        <field name="name">Calculs</field>
+        <field name="res_model">calculatrice.calculatrice</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_calculatrice_search"/>
+    </record>
+
+    <!-- Menu -->
+    <menuitem
+        id="menu_calculatrice_root"
+        name="Calculatrice"
+        web_icon="calculatrice,static/description/icon.png"
+    />
+
+    <menuitem
+        id="menu_calculs"
+        name="Calculs"
+        action="action_calculs"
+        parent="menu_calculatrice_root"
+    />
+
+</odoo>

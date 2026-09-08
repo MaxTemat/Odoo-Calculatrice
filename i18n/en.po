@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * calculatrice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: calculatrice
+#: model:ir.model,name:calculatrice.model_calculatrice_calculatrice
+msgid "Calculatrice"
+msgstr "Calculator"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__nombre1
+msgid "Nombre 1"
+msgstr "Number 1"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__nombre2
+msgid "Nombre 2"
+msgstr "Number 2"
+
+#. module: calculatrice
+#: model:ir.actions.act_window,name:calculatrice.action_calculs
+msgid "Calculs"
+msgstr "Calculations"
+
+#. module: calculatrice
+#: model:ir.ui.menu,name:calculatrice.menu_calculatrice_root
+msgid "Calculatrice"
+msgstr "Calculator"
+
+#. module: calculatrice
+#: model:ir.ui.menu,name:calculatrice.menu_calculs
+msgid "Calculs"
+msgstr "Calculations"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_search
+msgid "Nombre 1 ou Nombre 2"
+msgstr "Number 1 or Number 2"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_list
+msgid "Total"
+msgstr "Total"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__operation
+msgid "Opération"
+msgstr "Operation"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__resultat
+msgid "Résultat"
+msgstr "Result"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__recherche
+msgid "Nombre 1 ou Nombre 2 ou Résultat"
+msgstr "Number 1 or Number 2 or Result"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__addition
+msgid "Addition"
+msgstr "Addition"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__soustraction
+msgid "Soustraction"
+msgstr "Subtraction"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__multiplication
+msgid "Multiplication"
+msgstr "Multiplication"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__division
+msgid "Division"
+msgstr "Division"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__modulo
+msgid "Modulo"
+msgstr "Modulo"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__pgcd
+msgid "PGCD"
+msgstr "GCD"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_res_partner__calcul_count
+msgid "Calculs"
+msgstr "Calculations"

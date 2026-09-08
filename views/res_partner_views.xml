@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Smart button "Calculs" dans les contacts -->
+    <record id="view_partner_form_calculatrice" model="ir.ui.view">
+        <field name="name">res.partner.form.calculatrice</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_view_calculs"
+                        type="object"
+                        class="oe_stat_button"
+                        icon="fa-calculator">
+                    <field name="calcul_count"
+                           widget="statinfo"
+                           string="Calculs"/>
+                </button>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>

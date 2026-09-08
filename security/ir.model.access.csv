@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_calculatrice_user,calculatrice user,model_calculatrice_calculatrice,calculatrice.group_calculatrice_user,1,0,0,0
+access_calculatrice_manager,calculatrice manager,model_calculatrice_calculatrice,calculatrice.group_calculatrice_manager,1,1,1,1
