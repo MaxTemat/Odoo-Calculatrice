@@ -4,7 +4,8 @@
     "category": "Tools",
     "summary": "Calculatrice pédagogique avec deux nombres",
     "description": "Module de formation Python/Odoo avec deux champs Float à 6 décimales.",
-    "author": "Formation Odoo",
+    "author": "Max Temat",
+    'website': 'https://github.com/MaxTemat?tab=repositories',
     "license": "LGPL-3",
     "depends": ["base"],
     "data": [

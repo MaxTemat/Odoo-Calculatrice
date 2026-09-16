@@ -13,6 +13,7 @@ Module Odoo 19 permettant d'effectuer différents calculs.
 - Recherche globale
 - Association de calculs avec des contacts
 - Smart button "Calculs" sur les contacts
+- Impression historique de calcul
 
 ## Version
 
