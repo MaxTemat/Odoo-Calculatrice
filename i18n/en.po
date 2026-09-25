@@ -99,3 +99,48 @@ msgstr "GCD"
 #: model:ir.model.fields,field_description:calculatrice.field_res_partner__calcul_count
 msgid "Calculs"
 msgstr "Calculations"
+
+#. module: calculatrice
+#: model:ir.actions.report,name:calculatrice.action_report_calculatrice
+msgid "Calculatrice"
+msgstr "Calculator"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Calculatrice"
+msgstr "Calculator"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Nombre 1"
+msgstr "Number 1"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Nombre 2"
+msgstr "Number 2"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Opération"
+msgstr "Operation"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Résultat"
+msgstr "Result"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Contact(s)"
+msgstr "Contact(s)"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Aucun contact lié."
+msgstr "No linked contact."
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_form
+msgid "Imprimer"
+msgstr "Print"

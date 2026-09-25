@@ -12,7 +12,8 @@
         "security/security.xml",
         "security/ir.model.access.csv",
         "views/calculatrice_views.xml",
-        "views/res_partner_views.xml"
+        "views/res_partner_views.xml",
+        "report/calculatrice_report.xml"
     ],
     "installable": True,
     "application": True

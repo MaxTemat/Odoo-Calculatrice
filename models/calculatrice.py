@@ -115,3 +115,10 @@ class Calculatrice(models.Model):
             ("nombre2", operator, number),
             ("resultat", operator, number),
         ]
+
+    def action_imprimer(self):
+        self.ensure_one()
+        report = self.env.ref(
+            "calculatrice.action_report_calculatrice"
+        )
+        return report.report_action(self)

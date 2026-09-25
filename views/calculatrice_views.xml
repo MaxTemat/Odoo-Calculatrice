@@ -21,6 +21,13 @@
         <field name="model">calculatrice.calculatrice</field>
         <field name="arch" type="xml">
             <form string="Calculatrice">
+                <header>
+                    <button name="action_imprimer"
+                            string="Imprimer"
+                            type="object"
+                            class="btn-primary"
+                            icon="fa-print"/>
+                </header>
                 <sheet>
                     <group>
                         <field name="nombre1"/>
