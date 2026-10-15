@@ -18,8 +18,8 @@ A training module for learning Odoo development, with a real, usable feature set
 - User and Manager security groups.
 - English and French translations.
 """,
-    "author": "Max Temat",
-    "maintainer": "Max Temat",
+    "author": "Script Consulting",
+    "maintainer": "Script Consulting",
     "website": "https://github.com/MaxTemat/Odoo-Calculatrice",
     "license": "LGPL-3",
     "depends": ["base"],
