@@ -5,12 +5,12 @@
          ACTION DU RAPPORT
     ========================================================== -->
     <record id="action_report_calculatrice" model="ir.actions.report">
-        <field name="name">Calculatrice</field>
+        <field name="name">Calculator</field>
         <field name="model">calculatrice.calculatrice</field>
         <field name="report_type">qweb-pdf</field>
         <field name="report_name">calculatrice.report_calculatrice</field>
         <field name="report_file">calculatrice.report_calculatrice</field>
-        <field name="print_report_name">'Calculatrice - %s' % (object.id)</field>
+        <field name="print_report_name">'Calculator - %s' % (object.id)</field>
     </record>
 
 
@@ -37,14 +37,14 @@
                                     margin-bottom: 4px;
                                     font-weight: 700;
                                 ">
-                                    Calculatrice
+                                    Calculator
                                 </h2>
 
                                 <div style="
                                     color: #6c757d;
                                     font-size: 14px;
                                 ">
-                                    Rapport de calcul
+                                    Calculation report
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@
                                     font-size: 12px;
                                     font-weight: 600;
                                 ">
-                                    RAPPORT DE CALCUL
+                                    CALCULATION REPORT
                                 </div>
                             </div>
 
@@ -84,7 +84,7 @@
                                 <strong style="
                                     font-size: 15px;
                                 ">
-                                    Détails du calcul
+                                    Calculation details
                                 </strong>
                             </div>
 
@@ -101,7 +101,7 @@
                                             font-size: 12px;
                                             margin-bottom: 5px;
                                         ">
-                                            Nombre 1
+                                            Number 1
                                         </div>
 
                                         <strong style="font-size: 17px;">
@@ -116,7 +116,7 @@
                                             font-size: 12px;
                                             margin-bottom: 5px;
                                         ">
-                                            Opération
+                                            Operation
                                         </div>
 
                                         <strong style="font-size: 17px;">
@@ -131,7 +131,7 @@
                                             font-size: 12px;
                                             margin-bottom: 5px;
                                         ">
-                                            Nombre 2
+                                            Number 2
                                         </div>
 
                                         <strong style="font-size: 17px;">
@@ -161,7 +161,7 @@
                                 letter-spacing: 1px;
                                 margin-bottom: 12px;
                             ">
-                                Expression du calcul
+                                Calculation expression
                             </div>
 
                             <div style="
@@ -185,7 +185,7 @@
                                     <t t-elif="o.operation == 'multiplication'">×</t>
                                     <t t-elif="o.operation == 'division'">÷</t>
                                     <t t-elif="o.operation == 'modulo'">%</t>
-                                    <t t-elif="o.operation == 'pgcd'">PGCD</t>
+                                    <t t-elif="o.operation == 'pgcd'">GCD</t>
 
                                 </span>
 
@@ -215,7 +215,7 @@
                                 letter-spacing: 1px;
                                 margin-bottom: 8px;
                             ">
-                                Résultat
+                                Result
                             </div>
 
                             <div style="
@@ -242,7 +242,7 @@
                                 padding-bottom: 8px;
                                 margin-bottom: 12px;
                             ">
-                                Contacts associés
+                                Linked contacts
                             </h4>
 
                             <t t-if="o.contact_ids">
@@ -258,7 +258,7 @@
                                     ">
                                         <tr>
                                             <th style="padding: 9px;">
-                                                Nom
+                                                Name
                                             </th>
 
                                             <th style="padding: 9px;">
@@ -266,7 +266,7 @@
                                             </th>
 
                                             <th style="padding: 9px;">
-                                                Téléphone
+                                                Phone
                                             </th>
                                         </tr>
                                     </thead>
@@ -305,7 +305,7 @@
                                     border-radius: 6px;
                                     color: #6c757d;
                                 ">
-                                    Aucun contact lié.
+                                    No linked contact.
                                 </div>
 
                             </t>
@@ -327,7 +327,7 @@
                             <div class="row">
 
                                 <div class="col-6">
-                                    Rapport généré automatiquement par Odoo
+                                    Report automatically generated by Odoo
                                 </div>
 
                                 <div class="col-6 text-end">

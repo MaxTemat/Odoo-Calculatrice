@@ -4,45 +4,45 @@ import math
 
 class Calculatrice(models.Model):
     _name = "calculatrice.calculatrice"
-    _description = "Calculatrice"
+    _description = "Calculator"
 
     # =========================================================
     # CHAMPS
     # =========================================================
 
     nombre1 = fields.Float(
-        string="Nombre 1",
+        string="Number 1",
         digits=(16, 6),
     )
 
     nombre2 = fields.Float(
-        string="Nombre 2",
+        string="Number 2",
         digits=(16, 6),
     )
 
     operation = fields.Selection(
         selection=[
             ("addition", "Addition"),
-            ("soustraction", "Soustraction"),
+            ("soustraction", "Subtraction"),
             ("multiplication", "Multiplication"),
             ("division", "Division"),
             ("modulo", "Modulo"),
-            ("pgcd", "PGCD"),
+            ("pgcd", "GCD"),
         ],
-        string="Opération",
+        string="Operation",
         default="addition",
         required=True,
     )
 
     resultat = fields.Float(
-        string="Résultat",
+        string="Result",
         digits=(16, 6),
         compute="_compute_resultat",
         store=True,
     )
 
     recherche = fields.Char(
-        string="Nombre 1 ou Nombre 2 ou Résultat",
+        string="Number 1 or Number 2 or Result",
         compute="_compute_recherche",
         search="_search_recherche",
     )

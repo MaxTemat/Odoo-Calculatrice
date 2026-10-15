@@ -6,7 +6,7 @@
         <field name="name">calculatrice.calculatrice.list</field>
         <field name="model">calculatrice.calculatrice</field>
         <field name="arch" type="xml">
-            <list string="Calculatrice">
+            <list string="Calculator">
                 <field name="operation"/>
                 <field name="nombre1" sum="Total"/>
                 <field name="nombre2" sum="Total"/>
@@ -20,10 +20,10 @@
         <field name="name">calculatrice.calculatrice.form</field>
         <field name="model">calculatrice.calculatrice</field>
         <field name="arch" type="xml">
-            <form string="Calculatrice">
+            <form string="Calculator">
                 <header>
                     <button name="action_imprimer"
-                            string="Imprimer"
+                            string="Print"
                             type="object"
                             class="btn-primary"
                             icon="fa-print"/>
@@ -46,7 +46,7 @@
         <field name="name">calculatrice.calculatrice.search</field>
         <field name="model">calculatrice.calculatrice</field>
         <field name="arch" type="xml">
-            <search string="Calculatrice">
+            <search string="Calculator">
                 <field name="recherche"/>
                 <field name="nombre1"/>
                 <field name="nombre2"/>
@@ -58,7 +58,7 @@
 
     <!-- Action -->
     <record id="action_calculs" model="ir.actions.act_window">
-        <field name="name">Calculs</field>
+        <field name="name">Calculations</field>
         <field name="res_model">calculatrice.calculatrice</field>
         <field name="view_mode">list,form</field>
         <field name="search_view_id" ref="view_calculatrice_search"/>
@@ -67,13 +67,13 @@
     <!-- Menu -->
     <menuitem
         id="menu_calculatrice_root"
-        name="Calculatrice"
+        name="Calculator"
         web_icon="calculatrice,static/description/icon.png"
     />
 
     <menuitem
         id="menu_calculs"
-        name="Calculs"
+        name="Calculations"
         action="action_calculs"
         parent="menu_calculatrice_root"
     />

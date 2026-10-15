@@ -15,7 +15,7 @@
                         icon="fa-calculator">
                     <field name="calcul_count"
                            widget="statinfo"
-                           string="Calculs"/>
+                           string="Calculations"/>
                 </button>
             </xpath>
 

@@ -1,0 +1,168 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* calculatrice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: calculatrice
+#: model:ir.model,name:calculatrice.model_calculatrice_calculatrice
+#: model:ir.ui.menu,name:calculatrice.menu_calculatrice_root
+#: model:ir.actions.report,name:calculatrice.action_report_calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_list
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_form
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_search
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Calculator"
+msgstr "Calculatrice"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__nombre1
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Number 1"
+msgstr "Nombre 1"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__nombre2
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Number 2"
+msgstr "Nombre 2"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__operation
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Operation"
+msgstr "Opération"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__resultat
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Result"
+msgstr "Résultat"
+
+#. module: calculatrice
+#: model:ir.model.fields,field_description:calculatrice.field_calculatrice_calculatrice__recherche
+msgid "Number 1 or Number 2 or Result"
+msgstr "Nombre 1 ou Nombre 2 ou Résultat"
+
+#. module: calculatrice
+#. odoo-python
+#: model:ir.model.fields,field_description:calculatrice.field_res_partner__calcul_count
+#: model:ir.actions.act_window,name:calculatrice.action_calculs
+#: model:ir.ui.menu,name:calculatrice.menu_calculs
+#: code:addons/calculatrice/models/res_partner.py:0
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_partner_form_calculatrice
+msgid "Calculations"
+msgstr "Calculs"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__addition
+msgid "Addition"
+msgstr "Addition"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__soustraction
+msgid "Subtraction"
+msgstr "Soustraction"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__multiplication
+msgid "Multiplication"
+msgstr "Multiplication"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__division
+msgid "Division"
+msgstr "Division"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__modulo
+msgid "Modulo"
+msgstr "Modulo"
+
+#. module: calculatrice
+#: model:ir.model.fields.selection,name:calculatrice.selection__calculatrice_calculatrice__operation__pgcd
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "GCD"
+msgstr "PGCD"
+
+#. module: calculatrice
+#: model:res.groups,name:calculatrice.group_calculatrice_user
+msgid "Calculator User"
+msgstr "Utilisateur Calculatrice"
+
+#. module: calculatrice
+#: model:res.groups,name:calculatrice.group_calculatrice_manager
+msgid "Calculator Manager"
+msgstr "Responsable Calculatrice"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_list
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_list
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_list
+msgid "Total"
+msgstr "Total"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.view_calculatrice_form
+msgid "Print"
+msgstr "Imprimer"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Calculation report"
+msgstr "Rapport de calcul"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "CALCULATION REPORT"
+msgstr "RAPPORT DE CALCUL"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Calculation details"
+msgstr "Détails du calcul"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Calculation expression"
+msgstr "Expression du calcul"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Linked contacts"
+msgstr "Contacts associés"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Name"
+msgstr "Nom"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Email"
+msgstr "Email"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Phone"
+msgstr "Téléphone"
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "No linked contact."
+msgstr "Aucun contact lié."
+
+#. module: calculatrice
+#: model_terms:ir.ui.view,arch_db:calculatrice.report_calculatrice
+msgid "Report automatically generated by Odoo"
+msgstr "Rapport généré automatiquement par Odoo"

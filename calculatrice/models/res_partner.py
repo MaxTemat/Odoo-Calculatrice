@@ -5,7 +5,7 @@ class ResPartner(models.Model):
     _inherit = "res.partner"
 
     calcul_count = fields.Integer(
-        string="Calculs",
+        string="Calculations",
         compute="_compute_calcul_count",
     )
 
@@ -22,7 +22,7 @@ class ResPartner(models.Model):
 
         return {
             "type": "ir.actions.act_window",
-            "name": _("Calculs"),
+            "name": _("Calculations"),
             "res_model": "calculatrice.calculatrice",
             "view_mode": "list,form",
             "domain": [
